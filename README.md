@@ -22,9 +22,9 @@ The way the project was evaluated was by answering questions from evaluators in 
 ### Common Part
 
 <details>
-  <subject>
+  <summary>
     Sudo
-  </subject>
+  </summary>
   
 After installing the virtual machine with Virtual Box and opening it, what I did is install sudo, a utility from linux that allows us to execute programs or edit files with other user's permission. In fact, it stands for "substitute user do". It is widely used to make root that substitute and thus, we can also interpret it as "super user do". 🦸
 
