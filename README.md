@@ -37,6 +37,12 @@ It's a good moment now to mention one of the things the project subject asks for
 
 - **apt** is quite the same as aptitude, with the main difference being that it does not provide a user interface ❎ and the only way to interact with it is through the command line. More info can be found on debian's [apt](https://wiki.debian.org/AptCLI) wiki 📑.
 
+We are using **apt** since we don't need all the functionalities that aptitude offers, and also since **apt** is the deffault package manager, we will be using that one.
+It takes two arguments: 
+1. The first one is the action we want to do, in this case install a package
+2. The second one is the name of the package. Since we are installing ``sudo`` we write **sudo**
+After typing that and hittin enter, it will start installing ``sudo``
+
 Once it is installed we can start using it without using root's account and simply putting ```sudo``` before the command to execute it as super user.
 
 
