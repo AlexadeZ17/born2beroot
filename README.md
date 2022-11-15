@@ -23,7 +23,7 @@ The way the project was evaluated was by answering questions from evaluators in 
 
 After installing the virtual machine with Virtual Box and opening it, what I did is install sudo, a utility from linux that allows us to execute programs or edit files with other user's permission. In fact, it stands for "substitute user do". It is widely used to make root that substitute and thus, we can also interpret it as "super user do". 🦸
 
-The installation process it's quite simple, since we only have to execute the following command:
-```bash
+The installation process it's quite simple, since we only have to execute the following command as root:
+```shell
 apt install sudo
 ```
