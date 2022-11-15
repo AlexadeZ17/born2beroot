@@ -31,11 +31,11 @@ It's a good moment now to mention one of the things the project subject asks for
 
 #### APT vs apt vs aptitude
 
-**APT** stands for _Advanced Packaging Tool_. It was introduced by debian as a tool to install packages on our system. It is a low level command-line tool for searching and managing packages.
+- **APT** stands for _Advanced Packaging Tool_. It was introduced by debian as a tool to install packages on our system. It is a low level command-line tool for searching and managing packages 📦.
 
-**aptitude** is also used to manage packages. This one has a Text-Based user interface and can emulate most functionalities from **APT**, but it improves them at some point by giving a common tool to install packages, show versions and also look for them, since it implements a good search syntax. More info can be found on debian's [aptitude](https://wiki.debian.org/Aptitude) wiki.
+- **aptitude** is also used to manage packages. This one has a Text-Based user interface 👾 and can emulate most functionalities from **APT**, but it improves them at some point by giving a common tool to install packages, show versions and also look for them, since it implements a good search syntax. More info can be found on debian's [aptitude](https://wiki.debian.org/Aptitude) wiki 📑.
 
-**apt** is quite the same as aptitude, with the main difference being that it does not provide a user interface and the only way to interact with it is through the command line. More info can be found on debian's [apt](https://wiki.debian.org/AptCLI) wiki.
+- **apt** is quite the same as aptitude, with the main difference being that it does not provide a user interface ❎ and the only way to interact with it is through the command line. More info can be found on debian's [apt](https://wiki.debian.org/AptCLI) wiki 📑.
 
 Once it is installed we can start using it without using root's account and simply putting ```sudo``` before the command to execute it as super user.
 
