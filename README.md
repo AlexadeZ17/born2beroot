@@ -27,3 +27,4 @@ The installation process it's quite simple, since we only have to execute the fo
 ```shell
 apt install sudo
 ```
+Once it is installed we can start using it without using root's account and simply putting ```sudo``` before the command to execute it as super user
