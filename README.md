@@ -23,3 +23,4 @@ The way the project was evaluated was by answering questions from evaluators in 
 
 - [sudo](https://github.com/AlexadeZ17/born2beroot/tree/main/common/sudo.md) 🦸
 - [ssh](https://github.com/AlexadeZ17/born2beroot/tree/main/common/ssh.md) 🕵️
+- [firewall](https://github.com/AlexadeZ17/born2beroot/tree/main/common/fwall.md)
