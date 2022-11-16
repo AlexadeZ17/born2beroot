@@ -22,5 +22,4 @@ The way the project was evaluated was by answering questions from evaluators in 
 ### Common Part Index
 
 - [sudo](https://github.com/AlexadeZ17/born2beroot/tree/main/common/sudo.md) 🦸
-
-
+- [ssh](https://github.com/AlexadeZ17/born2beroot/tree/main/common/ssh.md) 🕵️
