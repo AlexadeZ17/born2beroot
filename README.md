@@ -21,6 +21,6 @@ The way the project was evaluated was by answering questions from evaluators in 
 
 ### Common Part Index
 
-- [sudo](https://github.com/AlexadeZ17/born2beroot/main/tree/common/sudo.md) :superheroe
+- [sudo](https://github.com/AlexadeZ17/born2beroot/tree/main/common/sudo.md) :super
 
 
