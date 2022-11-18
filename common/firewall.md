@@ -7,7 +7,7 @@ UFW is not installed by default on our system, so we will have to install it. To
 Once it's installed, configuring it is super easy (hence, it's name). We just have to execute ``sudo ufw allow <port>/<protocol>``, substituing ``<port>`` and ``<protocol>`` by ``4242`` and ``tcp``, since ``ssh`` service runs on ``tcp`` protocol.
 Now, if we enable the ``ufw`` service with ``sudo ufw enable``, we will only be able to acces port ``4242`` from the outside.
 
-## TCP? vs UDP
+## TCP vs UDP
 
 On the internet there are two main protocols (actually 3): **UDP** and **TCP**, and the y have multiple use cases and peculiarities. Both of them are part of the Transmission layer on the OSI model.
 
