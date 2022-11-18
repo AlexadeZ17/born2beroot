@@ -9,9 +9,9 @@ Something important to keep our computer as secure as possible is to implement a
 In order to do that, we will have to install ``libpam-pwquality`` with the good old command ``sudo apt-get install libpam-pwquality``. Once it is installed, we will edit the file where the password policies are stored at: ``common-password``. We edit it with executing the command ``nano /etc/pam.d/common-password``. In this file we go to the first line and will add the following rules:
 
 - minlen = 10 &rarr; sets the minimum length of the password to be 10 characters
-- lcredit = -1 -> Requires at least one lowercase character
-- ucredit = -1 -> Requires at least one uppercase character
-- dcredit = -1 -> Requires at least one digit
-- retry = 3 -> Maximum number of attemnts
-- maxrepeat = 3 -> Allows no more than 3 times the same character
+- lcredit = -1 &rarr; Requires at least one lowercase character
+- ucredit = -1 &rarr; Requires at least one uppercase character
+- dcredit = -1 &rarr; Requires at least one digit
+- retry = 3 &rarr; Maximum number of attemnts
+- maxrepeat = 3 &rarr; Allows no more than 3 times the same character
 
