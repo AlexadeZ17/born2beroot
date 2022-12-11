@@ -31,9 +31,16 @@ Now sudo is installed, but we have to configure some rules to make it a bit more
 We will add the following defaults:
 
 ``Defaults  passwd_tries=3`` -> Limit the ammount of password tries to 3
+
 ``Defaults  badpass_message="Custom error message"`` -> Custom error message when password is wrong
+
 ``Defaults  requiretty`` -> Require TTY to execute sudo
+
 ``Defaults  log_input`` -> Enable input logging
+
 ``Defaults  log_output`` -> Enable output logging
+
 ``Defaults  iolog_dir="/var/log/sudo`` -> File where intput and output will be stored
+
 ``Defaults  secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"`` -> Path that can be executed as sudo
+
