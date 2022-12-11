@@ -19,8 +19,8 @@ In order to do that, we will have to install ``libpam-pwquality`` with the good 
 
 Now, we also have to change some things regarding to how the passwords are handled and when do they expire. We can do that by editing the file ``/etc/login.defs`` and making sure the following constants end up like this:
 
-``PASS_MAX_DAYS = 30``
-``PASS_MIN_DAYS = 2``
-``PASS_WARN_AGE = 7``
+- ``PASS_MAX_DAYS = 30``
+- ``PASS_MIN_DAYS = 2``
+- ``PASS_WARN_AGE = 7``
 
 With that changed we will have compleated the password policy requested by the subject.
