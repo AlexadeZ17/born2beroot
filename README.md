@@ -25,5 +25,3 @@ The way the project was evaluated was by answering questions from evaluators in 
 - [ssh](https://github.com/AlexadeZ17/born2beroot/tree/main/common/ssh.md) 🕵️
 - [firewall](https://github.com/AlexadeZ17/born2beroot/tree/main/common/firewall.md) 🧱
 - [password policy](https://github.com/AlexadeZ17/born2beroot/tree/main/common/passwd.md) 🔒
-
-Password: ThisPasswordIsSecure00
